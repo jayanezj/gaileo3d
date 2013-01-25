@@ -1,0 +1,119 @@
+/* CSS - General */
+body {
+	background-image:url('imagenes/fondo.png');
+}
+
+A:link {color: #000;}
+A:visited {color: #000;}
+A:active {color: #000;}
+A:hover {color: #000;}
+
+/* CSS - Index */
+
+div.banner {
+	margin-top: 10px;
+}
+
+div.entrada {
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	left: 28%;
+	margin-top: 20px;
+	border: 1px solid;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	behavior:url(scripts/border-radius.htc);
+	clear: both;
+	background: #e6e5ba;
+}
+
+div.entrada p {
+	text-align: right;
+	margin-right: 20px;
+	font: "Lucida Handwriting";
+}
+
+div.entrar {
+	text-align: center;
+}
+
+
+/* CSS - IesGalileo */
+div.contenido {
+	width: 750px;
+	margin: 30px auto;
+	background: #e6e5ba;
+	border: 1px solid #d1d0ad;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	behavior:url(scripts/border-radius.htc);
+	padding: 50px 0;
+	height: auto !important;
+}
+
+div.contenido p {
+	padding: 0 0 0 25px;
+}
+
+div.contenido table{
+	text-align: center;
+}
+
+/* Menu */
+
+div.menu {
+	width: 100%;
+	height: 70px;
+	background: transparent url('imagenes/bgmenu.png') repeat-x;
+	text-align: center;
+}
+
+div.menu_i {
+	float: left;
+	width: 54px;
+	height: 100px;
+	background: transparent url('imagenes/bgmenu_i.png') no-repeat;
+	margin-left: -16px;
+}
+
+
+div.menu_d{
+	float: right;
+	width: 54px;
+	height: 100px;
+	background: transparent url('imagenes/bgmenu_d.png') no-repeat;
+	margin-right: -16px; 
+}
+
+div.menu li {
+	list-style-type: none;
+	float: left;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 80px;
+	padding-right: 40px;
+	padding-left: 29px;
+}
+
+div.menu li a {
+	text-decoration: none;
+	color: #222;
+	display: block  !importnat;
+	position: relative;
+	width: 150px !importnat;
+}
+
+
+div.menu li a:hover {
+	color: #000;
+}
+
+.menu ul li:hover  {
+	display: block;
+}
+
+div.indice {
+	font-size: 0.75em;
+}

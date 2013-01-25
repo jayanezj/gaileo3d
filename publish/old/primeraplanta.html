@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+	<link rel="StyleSheet" href="style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="scripts/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="shortcut icon" href="imagenes/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; ">
+	<script type='text/javascript' src='scripts/jquery1_7_2.js'></script>
+	<script type='text/javascript' src='scripts/reproductor.js'></script>
+	<script type="text/javascript" src="scripts/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="scripts/fancybox/jquery.fancybox.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("area#videolink").fancybox({
+		  overlayShow: true,
+		  overlayOpacity: 0.7
+			});
+		});
+	</script>
+	
+	
+		<!--[if lt IE 7]>
+		<script defer type="text/javascript" src="scripts/pngfix.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!-- Contenido -->
+		<div class="contenido" >
+		
+			<!-- Banner -->
+			<div class="banner" align="center">
+			<img src="imagenes/banner.png" />
+			</div>
+			
+			<!-- Menú -->
+			<div class="menu">
+				<div class="menu_i"></div>	<div class="menu_d"></div>
+				<ul>
+					<li><a href="iesgalileo.html"> Inicio </a> </li>
+					<li><a href="primeraplanta.html"> Primera Planta </a> </li>
+					<li><a href="segundaplanta.html"> Segunda Planta </a> </li>
+				</ul>
+			</div>
+			
+		<!-- Contenido -->	
+		<br><div class="indice">» <a href="iesgalileo.html"> Inicio</a>  » Primera planta</div><br>
+		<p>» Haz Click sobre la zona deseada para visitarla de manera virtual.</p>
+		<br><br>
+		<table border="0" align="center" width="500" cellpadding="10px" cellspacing="10px">
+			<tr>
+				<td> 
+					<img src="imagenes/plano_inferior1.gif" usemap="#plano_inferior1" border="0">
+
+					<map name="plano_inferior1">
+					<area shape="rect" coords="238,134,174,84" id="videolink" href="#aula15">
+					<area shape="rect" coords="74,246,12,174" id="videolink" href="#aulas11_12">
+					<area shape="rect" coords="318,314,336,392" id="videolink" href="#entrada">
+					<area shape="rect" coords="234,310,300,354" id="videolink" href="#secretaria">
+					<area shape="rect" coords="342,312,392,396" id="videolink" href="#biblioteca">
+					<area shape="rect" coords="334,268,424,306" id="videolink" href="#cafeteria">
+					<area shape="rect" coords="316,290,134,144" id="videolink" href="#pasillos">
+
+					</map>
+			</td>
+			</tr>
+		</table>
+		
+			<!-- Divs con los videos -->
+			<div id="aula15" style="display:none">
+				Aula 15  @ I.E.S Galileo <br><br>
+				<object>
+				<embed src="scripts/mediaplayer.swf" width="400" height="310" allowscriptaccess="always" allowfullscreen="true"
+				flashvars="height=310&width=400&file=videos/primeraplanta/Aula15.swf&screencolor=0x000000&logo=imagenes/logo.png&link=www.iesgalileo.org"/>
+				</embed>
+				</object>
+			</div>
+			
+			<div id="aulas11_12" style="display:none">
+				Aulas 11 y 12  @ I.E.S Galileo <br><br>
+				<object>
+				<embed src="scripts/mediaplayer.swf" width="400" height="310" allowscriptaccess="always" allowfullscreen="true"
+				flashvars="height=310&width=400&file=videos/primeraplanta/Aulas11_12.swf&screencolor=0x000000&logo=imagenes/logo.png&link=www.iesgalileo.org"/>
+				</embed>
+				</object>
+			</div>
+			
+			<div id="entrada" style="display:none">
+				Entrada al Instituto @ I.E.S Galileo <br><br>
+				<object>
+				<embed src="scripts/mediaplayer.swf" width="400" height="310" allowscriptaccess="always" allowfullscreen="true"
+				flashvars="height=310&width=400&file=videos/primeraplanta/Entrada.swf&screencolor=0x000000&logo=imagenes/logo.png&link=www.iesgalileo.org"/>
+				</embed>
+				</object>
+			</div>
+			
+			<div id="secretaria" style="display:none">
+				Secretaría  @ I.E.S Galileo <br><br>
+				<object>
+				<embed src="scripts/mediaplayer.swf" width="400" height="310" allowscriptaccess="always" allowfullscreen="true"
+				flashvars="height=310&width=400&file=videos/primeraplanta/Secretaria.swf&screencolor=0x000000&logo=imagenes/logo.png&link=www.iesgalileo.org"/>
+				</embed>
+				</object>
+			</div>
+			
+			<div id="biblioteca" style="display:none">
+				Biblioteca  @ I.E.S Galileo <br><br>
+				<object>
+				<embed src="scripts/mediaplayer.swf" width="400" height="310" allowscriptaccess="always" allowfullscreen="true"
+				flashvars="height=310&width=400&file=videos/primeraplanta/Biblioteca.swf&screencolor=0x000000&logo=imagenes/logo.png&link=www.iesgalileo.org"/>
+				</embed>
+				</object>
+			</div>
+			
+			<div id="cafeteria" style="display:none">
+				Cafetería  @ I.E.S Galileo <br><br>
+				<object>
+				<embed src="scripts/mediaplayer.swf" width="400" height="310" allowscriptaccess="always" allowfullscreen="true"
+				flashvars="height=310&width=400&file=videos/primeraplanta/Cafeteria.swf&screencolor=0x000000&logo=imagenes/logo.png&link=www.iesgalileo.org"/>
+				</embed>
+				</object>
+			</div>
+			
+			<div id="pasillos" style="display:none">
+				Planta Baja  @ I.E.S Galileo <br><br>
+				<object>
+				<embed src="scripts/mediaplayer.swf" width="400" height="310" allowscriptaccess="always" allowfullscreen="true"
+				flashvars="height=310&width=400&file=videos/primeraplanta/Pasillos.swf&screencolor=0x000000&logo=imagenes/logo.png&link=www.iesgalileo.org"/>
+				</embed>
+				</object>
+			</div>
+		
+		</div>
+		
+	</body>
+	</html>
+	

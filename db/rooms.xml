@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rooms>
+	<room id="0">
+		<closeid>close_upper_a-finan</closeid>
+		<textid>upper_a-finan_text</textid>
+		<title>Aula Financiera</title>
+		<desc>Normalmente el aula se utiliza para desarrollar clases del ciclo formativo de grado medio de Administración y finanzas.</desc>
+		<vid0>video/financiera.mp4</vid0>
+		<vid1>video/financiera.mp4</vid1>
+	</room>
+	<room id="1">
+		<closeid>close_upper_aisle-inf3</closeid>
+		<textid>upper_aisle-inf3_text</textid>
+		<title>Pasillo y Aula 3</title>
+		<desc>Normalmente el aula se utiliza para desarrollar clases del ciclo formativo de grado superior de Administración de Sistemas Informáticos y Redes.</desc>
+		<vid0>video/aula3.mp4</vid0>
+		<vid1>video/financiera.mp4</vid1>
+	</room>
+ </rooms>

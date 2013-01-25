@@ -1,0 +1,43 @@
+                               ..........
+                        =I7II77IIIII777777777II?,
+                    :II7IIIIIIIIIIIIIIIIIIIIIIIIIII+
+                 ~I7IIIIIIIIIIIIII7IIIIIIIIIIIIII7III7?          /* TEAM */
+              +I77IIIIIIIII7+=~:,,  , ,,::~+I777IIIIIII77=
+            +IIIIII777II:                       ?777IIIII7II       Designer and builder: José Antonio Yáñez Jiménez
+          ~IIIII77II7                             ,+IIIII7II7?      Site: http://www.jimenezfrontend.es
+         I77IIII77?                                  ~IIIIIIIII:     eMail: jose@jimenezfrontend.es
+       +IIIIII7I,                                      ~?IIIIIII=     Facebook: https://www.facebook.com/berikin 
+      ?I7IIIII,                                          :I7IIII7I~    Location: Valladolid, Spain
+    :I7IIIII?                     ,,,,                     :7IIIIII
+    IIIII77I                :+7IIIIIIIIIIII,                =7IIIIII:
+   +IIIII7+               ?IIIIIIIIIIIIIII7II?:              ,IIIII7I
+  I7III7I,             :IIIIIIIIII7II7IIIIIII7II+:            :IIIIII?
+ ,7IIII7+            =7IIIIIIIII+,    ,~IIIIIIIII7:             IIIII7?
+ ?IIIIII            :IIIIII7?:             77IIIII7I            IIIIIII=
+:IIIII7            +7IIIIII~                 777II7I~           ~77II7II   I7I  ~I?   I7I
+I7II777            7IIIIII                    +IIIII7=           +7IIIII   I7I  I77   I7I
+IIII7I?           IIIIII+                       IIIIII=           IIIIII,  I7I        77I
+IIII7I=          ~7IIIII                        I7III7I           ?IIIII~  I7I   ,    77I
+77IIII:          +7IIIII                        ?7III7I      :+?=:=?+++I=  I7I  ?+?   77I      :=?+~            =+?+~
+I7IIII,          ?IIIIII                        +7III7I    :7I777I~=   ?+  I7I  777   77I   ,?III77II?:      ,7III77II7
+77IIII:          +7IIIII                        I7III7I  ~I77+    ~=   ?=  I7I  777   77I  :II?    ,=I77   ,I77?     777I,
+77II7I=          ~IIIIII                        IIIII7I  II7+     ?=   ?~  I7I  77I   77I  IIIIIIIIIIIII,  II7+       II7?
+I7II77?           ?IIIIII                      :77III7I  7I7:     I?   ?,  I7I  77I   77I  II7IIIIIIIIII~  II7~       =III
+I7III77            IIIII77,                  ,?7IIIII7I  ?I7I,   +I,   ?   I7I  77I   7II  ?77:            +I7I:     =777~
+~IIIIII            +IIIIIII?                ~7IIIIIII7I   +7I7?=:/\,   ?   I7I  7I7   7II   I7I7?~=I7+      =7III+=+I77I:
+ ?IIIII?            :IIIII77I?:           =77IIIIIIII7I    `7I77   ~   :   I7I  7II   7II    :I7I777II:       I7II777II
+  IIIII7?            =I7IIIIIIII7+=~~~+IIIIIIIIIIIIII7I       :~?IIII7?                         `~~´            =+?+~
+  ?7IIIII,             :III7IIIIIIIIIIIIIIIIIII7I7III7I       ~7IIIII+
+   ?IIIII7=               +7IIIIIIIIIIIIIIII7?: +IIII7I      ,I7III7I
+    I77IIIII                :=IIIIIIIIIIII+,    =IIII7I     =IIIIIII:    /* SITE */
+    :I7IIIII?,                    '''''         +IIII7I     ?7IIII7
+      +7IIIIII,                                 IIIII77     I7II7I=    Last update: 24/01/2013
+       +IIIIIIII:                              ,77IIII=     III7=     Standars: XHTML5, CSS3, SVG, XML
+         I7IIIIIIII                           =IIIII7+     ,III:     Components: jQuery 
+          :IIIIIIIII7,                       IIIIIII+      II?      Software: Sublime Text, SimpleLESS, inkScape, VectorMagic, Smaller
+            ?77IIIIII77I:                  =IIIIII7I      ?I       O.S: Mac OS X
+              +IIIIIIIIII777+~::,,,, ,,:+III7IIIII+      ~
+                 ~I77IIIIIIIIII777777777IIIIIIII?
+                    :II777IIIIIIIIIIIIIIIIII77I:
+                        =?IIIIIIIIIIIIIIIIII=
+                             ,:=+IIIII?=,

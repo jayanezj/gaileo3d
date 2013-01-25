@@ -1,0 +1,10 @@
+	var so = new SWFObject('mediaplayer.swf','mpl','400','310','8');
+	so.addParam('allowscriptaccess','always');
+	so.addParam('allowfullscreen','true');
+	so.addVariable('height','310');
+	so.addVariable('width','400');
+	so.addVariable('file','videos/Entrada.swf');
+	so.addVariable('screencolor','0x000000');
+	so.addVariable('logo','imagenes/logo.png');
+	so.addVariable('link','http://http://www.iesgalileo.org');
+	so.write('player');

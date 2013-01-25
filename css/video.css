@@ -1,0 +1,219 @@
+/* video container */
+.videoContainer{
+	width:600px;
+	height:350px;
+	position:relative;
+	overflow:hidden;
+	background:#000;
+	color:#009966;
+}
+
+/* video caption css */
+.caption{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	padding:10px;
+	color:#009966;
+	font-size:20px;
+	font-weight:bold;
+	box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #FFF36C; /* fallback */
+	background:-moz-linear-gradient(top,#FFFFCC 50%,#FFF36C 50%,#F9CD19 100%);
+	background:-webkit-linear-gradient(top,#FFFFCC 50%,#FFF36C 50%,#F9CD19 100%);
+	background:-o-linear-gradient(top,#FFFFCC 50%,#FFF36C 50%,#F9CD19 100%);
+}
+
+/*** VIDEO CONTROLS CSS ***/
+/* control holder */
+.control{
+	background:#F9CD19;
+	color:#009966;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	z-index:5;
+	display:none;
+}
+/* control top part */
+.topControl{
+	height:11px;
+	border-bottom:1px solid #F9CD19;
+	padding:1px 5px;
+	background:#F9CD19; /* fallback */
+	background:-moz-linear-gradient(top,#FFFFCC 50%,#FFF36C 50%,#F9CD19 100%);
+	background:-webkit-linear-gradient(top,#FFFFCC 50%,#FFF36C 50%,#F9CD19 100%);
+	background:-o-linear-gradient(top,#FFFFCC 50%,#FFF36C 50%,#F9CD19 100%);
+}
+/* control bottom part */
+.btmControl{
+	clear:both;
+	background: #F9CD19; /* fallback */
+	background:-moz-linear-gradient(top,#FFFFCC 50%,#FFF36C 50%,#F9CD19 100%);
+	background:-webkit-linear-gradient(top,#FFFFCC 50%,#FFF36C 50%,#F9CD19 100%);
+	background:-o-linear-gradient(top,#FFFFCC 50%,#FFF36C 50%,#F9CD19 100%);
+}
+.control div.btn {
+	float:left;
+	width:34px;
+	height:30px;
+	padding:0 5px;
+	border-right:1px solid #F9CD19;
+	cursor:pointer;
+}
+.control div.text{
+	font-size:12px;
+	font-weight:bold;
+	line-height:30px;
+	text-align:center;
+	font-family:verdana;
+	width:20px;
+	border:none;
+	color:#669988;
+}
+.control div.btnPlay{
+	background:url(../img/vid/play.svg) no-repeat;
+	border-left:1px solid #F9CD19;
+}
+.control div.paused{
+	background:url(../img/vid/pause.svg) no-repeat;
+}
+.control div.btnStop{
+	background:url(../img/vid/stop.svg) no-repeat;
+}
+.control div.spdText{
+	border:none;
+	font-size:14px;
+	line-height:30px;
+	font-style:italic;
+}
+.control div.selected{
+	font-size:15px;
+	color:#009966;
+}
+.control div.sound{
+	background:url(../img/vid/volume_min.svg) no-repeat;
+	border:none;
+	float:right;
+}
+.control div.sound2{
+	background:url(../img/vid/volume_max.svg) no-repeat;
+}
+.control div.muted{
+	background:url(../img/vid/mute.svg) no-repeat;
+}
+.control div.btnFS{
+	background:url(../img/vid/fs.svg) no-repeat;
+	float:right;
+}
+.control div.btnLight{
+	background:url(../img/vid/light_on.svg) no-repeat;
+	border-left:1px solid #F9CD19;
+	float:right;
+}
+.control div.lighton{
+	background:url(../img/vid/light_off.svg) no-repeat;
+}
+
+/* PROGRESS BAR CSS */
+/* Progress bar */
+.progress {
+	width:85%;
+	height:10px;
+	position:relative;
+	float:left;
+	cursor:pointer;
+	background: #444; /* fallback */
+	background:-moz-linear-gradient(top,#666,#333);
+	background:-webkit-linear-gradient(top,#666,#333);
+	background:-o-linear-gradient(top,#666,#333);
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+.progress span {
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+.timeBar{
+	z-index:10;
+	width:0;
+	background: #31C25A; /* fallback */
+	background:-moz-linear-gradient(top,#A1FFD5 50%,#31C25A 50%,#009966 100%);
+	background:-webkit-linear-gradient(top,#A1FFD5 50%,#31C25A 50%,#009966 100%);
+	background:-o-linear-gradient(top,#A1FFD5 50%,#31C25A 50%,#009966 100%);
+	box-shadow:0 0 1px #fff;
+	-moz-box-shadow:0 0 1px #fff;
+	-webkit-box-shadow:0 0 1px #fff;
+}
+.bufferBar{
+	z-index:5;
+	width:0;
+	background: #777;
+	background:-moz-linear-gradient(top,#739A81,#506758);
+	background:-webkit-linear-gradient(top,#739A81,#506758);
+	background:-o-linear-gradient(top,#739A81,#506758);
+}
+/* time and duration */
+.time{
+	width:15%;
+	float:right;
+	text-align:center;
+	font-size:11px;
+	line-height:12px;
+}
+
+/* VOLUME BAR CSS */
+/* volume bar */
+.volume{
+	position:relative;
+	cursor:pointer;
+	width:70px;
+	height:10px;
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+}
+.volumeBar{
+	display:block;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#009966;
+	z-index:10;
+}
+
+/* OTHERS CSS */
+/* video screen cover */
+.loading, #init{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:url(../img/vid/loading.gif) no-repeat 50% 50%;
+	z-index:2;
+	display:none;
+}
+#init{
+	background:url(../img/vid/bigplay.svg) no-repeat 50% 50% !important;
+	cursor:pointer;
+}
+#thevid
+	{
+	margin:0 auto 0 auto;
+	}
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+	<link rel="StyleSheet" href="style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="scripts/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="shortcut icon" href="imagenes/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; ">
+	<script type='text/javascript' src='scripts/jquery1_7_2.js'></script>
+	<script type='text/javascript' src='scripts/reproductor.js'></script>
+	<script type="text/javascript" src="scripts/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="scripts/fancybox/jquery.fancybox.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("area#videolink").fancybox({
+		  overlayShow: true,
+		  overlayOpacity: 0.7
+			});
+		});
+	</script>
+	
+		<!--[if lt IE 7]>
+		<script defer type="text/javascript" src="scripts/pngfix.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!-- Contenido -->
+		<div class="contenido" >
+		
+			<!-- Banner -->
+			<div class="banner" align="center">
+			<img src="imagenes/banner.png" />
+			</div>
+			
+			<!-- Menú -->
+			<div class="menu">
+				<div class="menu_i"></div>	<div class="menu_d"></div>
+				<ul>
+					<li><a href="iesgalileo.html"> Inicio </a> </li>
+					<li><a href="primeraplanta.html"> Primera Planta </a> </li>
+					<li><a href="segundaplanta.html"> Segunda Planta </a> </li>
+				</ul>
+			</div>
+			
+		<!-- Contenido -->	
+		<br><div class="indice">» <a href="iesgalileo.html"> Inicio</a>  » Segunda planta</div><br>
+		<p>» Haz Click sobre la zona deseada para visitarla de manera virtual.</p>
+		<br><br>
+		<table border="0" align="center" width="500" cellpadding="10px" cellspacing="10px">
+			<tr>
+				<td> 
+					<img src="imagenes/plano_superior1.gif" usemap="#plano_superior1" border="0">
+
+					<map name="plano_superior1">
+					<area shape="rect" coords="171,389,47,280" id="videolink" href="#afin">
+					<area shape="rect" coords="153,110,104,3" id="videolink" href="#inf2">
+					<area shape="rect" coords="160,111,213,2" id="videolink" href="#inf3">
+					<area shape="rect" coords="253,17,305,146" id="videolink" href="#inf5">
+
+					</map>
+				</td>
+			</tr>
+		</table>
+		
+			<!-- Divs con los videos -->
+			<div id="afin" style="display:none">
+				Aula - AF <br>FP. Superior - Administracion y Finanzas  @ I.E.S Galileo <br><br>
+				<object>
+				<embed src="scripts/mediaplayer.swf" width="400" height="310" allowscriptaccess="always" allowfullscreen="true"
+				flashvars="height=310&width=400&file=videos/segundaplanta/Afin.swf&screencolor=0x000000&logo=imagenes/logo.png&link=www.davidfadrique.tk"/>
+				</embed>
+				</object>
+			</div>
+			
+			<div id="inf2" style="display:none">
+				Aula INF2  - DAI<br>FP. Superior - Desarrollo Aplicaciones Informáticas  @ I.E.S Galileo <br><br>
+				<object>
+				<embed src="scripts/mediaplayer.swf" width="400" height="310" allowscriptaccess="always" allowfullscreen="true"
+				flashvars="height=310&width=400&file=videos/segundaplanta/inf2.swf&screencolor=0x000000&logo=imagenes/logo.png&link=www.davidfadrique.tk"/>
+				</embed>
+				</object>
+			</div>
+			
+			<div id="inf3" style="display:none">
+				Aula INF3  - ASIR<br>FP. Superior - Administración de Sistemas <br>Informáticos en Red  @ I.E.S Galileo <br><br>
+				<object>
+				<embed src="scripts/mediaplayer.swf" width="400" height="310" allowscriptaccess="always" allowfullscreen="true"
+				flashvars="height=310&width=400&file=videos/segundaplanta/inf3.swf&screencolor=0x000000&logo=imagenes/logo.png&link=www.davidfadrique.tk"/>
+				</embed>
+				</object>
+			</div>
+			
+			<div id="inf5" style="display:none">
+				Aula INF5 - SMR<br>FP. Superior - Sistemas MicroInformáticos y Redes  @ I.E.S Galileo <br><br>
+				<object>
+				<embed src="scripts/mediaplayer.swf" width="400" height="310" allowscriptaccess="always" allowfullscreen="true"
+				flashvars="height=310&width=400&file=videos/segundaplanta/inf5.swf&screencolor=0x000000&logo=imagenes/logo.png&link=www.davidfadrique.tk"/>
+				</embed>
+				</object>
+			</div>
+			
+		</div>
+		
+	</body>
+	</html>
+	
